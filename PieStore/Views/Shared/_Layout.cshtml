@@ -1,0 +1,50 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+<!DOCTYPE html>
+@inject SignInManager<IdentityUser> SignInManager
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a asp-controller="Home" asp-action="Index" class="navbar-brand">Pie Shop</a></li>
+                    <li><a asp-controller="Feedback" asp-action="Index" class="navbar-nav">Feedback</a></li>
+                 
+
+                </ul>
+
+                   @if (SignInManager.IsSignedIn(User))
+                   {
+                       <form asp-action="Logout" asp-controller="Account" method="post" class="navbar-right"  id="logoutForm">
+                            <ul class="nav navbar-nav navbar-right">
+                            <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
+                            </li>
+                            </ul>
+                       
+                       </form>
+                   }
+                   else
+                   {
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a id="loginLink" asp-controller="Account" asp-action="Login" class="navbar-brand">Login</a></li>
+                        <li><a id="registerLink" asp-controller="Account" asp-action="Register" class="navbar-nav">Register</a></li>
+                    </ul>
+                   }
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        <div class="row">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>

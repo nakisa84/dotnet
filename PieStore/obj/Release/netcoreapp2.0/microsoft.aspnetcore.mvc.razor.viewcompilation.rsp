@@ -1,0 +1,13 @@
+/Users/NakMac/Projects/gitMS/PieStore/PieStore
+--output-path=obj/Release/netcoreapp2.0/
+--application-name=PieStore
+--content-root=/Users/NakMac/Projects/gitMS/PieStore/PieStore
+--file=/Users/NakMac/Projects/gitMS/PieStore/PieStore/Views/Account/Login.cshtml
+--file=/Users/NakMac/Projects/gitMS/PieStore/PieStore/Views/Account/Register.cshtml
+--file=/Users/NakMac/Projects/gitMS/PieStore/PieStore/Views/Feedback/FeedbackComplete.cshtml
+--file=/Users/NakMac/Projects/gitMS/PieStore/PieStore/Views/Feedback/Index.cshtml
+--file=/Users/NakMac/Projects/gitMS/PieStore/PieStore/Views/Home/Details.cshtml
+--file=/Users/NakMac/Projects/gitMS/PieStore/PieStore/Views/Home/Index.cshtml
+--file=/Users/NakMac/Projects/gitMS/PieStore/PieStore/Views/Shared/_Layout.cshtml
+--file=/Users/NakMac/Projects/gitMS/PieStore/PieStore/Views/_ViewImports.cshtml
+--file=/Users/NakMac/Projects/gitMS/PieStore/PieStore/Views/_ViewStart.cshtml

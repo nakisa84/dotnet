@@ -1,0 +1,11 @@
+/Users/NakMac/Projects/gitMS/PieStore/PieStore/bin/Release/netcoreapp2.0/PieStore.deps.json
+/Users/NakMac/Projects/gitMS/PieStore/PieStore/bin/Release/netcoreapp2.0/PieStore.runtimeconfig.json
+/Users/NakMac/Projects/gitMS/PieStore/PieStore/bin/Release/netcoreapp2.0/PieStore.runtimeconfig.dev.json
+/Users/NakMac/Projects/gitMS/PieStore/PieStore/bin/Release/netcoreapp2.0/PieStore.dll
+/Users/NakMac/Projects/gitMS/PieStore/PieStore/bin/Release/netcoreapp2.0/PieStore.pdb
+/Users/NakMac/Projects/gitMS/PieStore/PieStore/obj/Release/netcoreapp2.0/PieStore.csprojAssemblyReference.cache
+/Users/NakMac/Projects/gitMS/PieStore/PieStore/obj/Release/netcoreapp2.0/PieStore.csproj.CoreCompileInputs.cache
+/Users/NakMac/Projects/gitMS/PieStore/PieStore/obj/Release/netcoreapp2.0/PieStore.AssemblyInfoInputs.cache
+/Users/NakMac/Projects/gitMS/PieStore/PieStore/obj/Release/netcoreapp2.0/PieStore.AssemblyInfo.cs
+/Users/NakMac/Projects/gitMS/PieStore/PieStore/obj/Release/netcoreapp2.0/PieStore.dll
+/Users/NakMac/Projects/gitMS/PieStore/PieStore/obj/Release/netcoreapp2.0/PieStore.pdb
